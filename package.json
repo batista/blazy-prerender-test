@@ -1,0 +1,24 @@
+{
+  "name": "blazy-prerender-test",
+  "version": "0.0.1",
+  "description": "testing blazy with prerender, has been failing",
+  "scripts": {
+    "start": "npm run serve | npm run phantomjs",
+    "serve": "node start.js",
+    "phantomjs":"phantomjs ./phantomjs-loader.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batista/blazy-prerender-test.git"
+  },
+  "author": "Sérgio Batista",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/batista/blazy-prerender-test/issues"
+  },
+  "homepage": "https://github.com/batista/blazy-prerender-test#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "phantomjs-prebuilt": "^2.1.12"
+  }
+}
